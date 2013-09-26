@@ -62,7 +62,8 @@ void DarkGDK ( void )
 				// Quit
 				if ( dbKeyState(Q_KEY) )
 				{
-					break;
+					break; // Why did I put this break before the subsequent line?
+					// Better Question: why is it here at all?
 					play = false;
 				}
 				
