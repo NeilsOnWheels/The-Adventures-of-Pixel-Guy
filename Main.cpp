@@ -19,6 +19,15 @@ darksdk.h
 #include "Menu.h"
 #include "DarkGDK.h"
 
+/*
+	Things that I want to add/change:
+	1.) When moving, I want to have the player move with respect to 
+	    the world, and have the window scroll along with him. The way
+		I have map scrolling implemented now is when I press the right 
+		arrow key, everything moves to the left.
+	2.)
+*/
+
 void DarkGDK ( void )
 {
 	dbSyncOn   ( );
